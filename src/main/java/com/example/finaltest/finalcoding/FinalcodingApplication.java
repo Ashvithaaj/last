@@ -12,15 +12,15 @@ public class FinalcodingApplication {
 	}
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome to spring boot greeting app";
+		return "welcome to azure";
 	}
 	@GetMapping("/greeting")
 	public String greeting() {
-		return "greetings from spring boot greeting app";
+		return "greeting from jenkins";
 	}
 	@GetMapping("/hello")
 	public String hello() {
-		return "hello from spring boot greeting app";
+		return "hello from devops";
 	}
 
 }
